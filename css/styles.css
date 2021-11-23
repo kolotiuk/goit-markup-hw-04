@@ -138,6 +138,7 @@ ul {
 .hero {
     padding: 200px 0;
     height: 600px;
+    max-width: 1600px;
     text-align: center;
 
     background-color: var(--bg-color);
@@ -224,6 +225,10 @@ ul {
 }
 .work-item {
     margin: 15px;
+}
+
+.work-item a {
+    display: block;
 }
 
 /* Team */
