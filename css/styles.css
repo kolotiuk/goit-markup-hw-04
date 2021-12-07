@@ -136,6 +136,7 @@ ul {
 
 /* Hero */
 .hero {
+    margin: 0 auto;
     padding: 200px 0;
     height: 600px;
     max-width: 1600px;
@@ -187,8 +188,11 @@ ul {
     margin: 15px;
 }
 .features-icon {
-    padding: 25px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
+    height: 120px;
 
     background-color: var(--secondary-bg-color);
 }
@@ -306,25 +310,26 @@ ul {
 .clients-item {
     margin: 15px;
 }
-.clients-logo .link {
+.clients-item-link {
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
+    min-width: 170px;
     height: 92px;
 
     color: var(--grey-icon-color);
     border: 1px solid var(--grey-icon-color);
     border-radius: 4px;
 }
-.clients-logo .link:hover,
-.clients-logo .link:focus {
+.clients-item-link:hover,
+.clients-item-link:focus {
     border-color: var(--blue-color);
 }
 .clients-item .icon {
     fill: currentColor;
 }
-.clients-logo .link:hover .icon,
-.clients-logo .link:focus .icon {
+.clients-item-link:hover .icon,
+.clients-item-link:focus .icon {
     fill: var(--blue-color);
 }
 
@@ -350,7 +355,8 @@ ul {
 .filter-btn:focus {
     color: var(--primary-white-color);
     background-color: var(--blue-color);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* Projects */
