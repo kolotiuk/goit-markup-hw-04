@@ -444,6 +444,7 @@ ul {
 .footer-social .text {
     margin-bottom: 20px;
     font-weight: 700;
+    line-height: 1.71;
 
     text-transform: uppercase;
     color: var(--primary-white-color);
